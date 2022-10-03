@@ -33,4 +33,4 @@ if __name__ == '__main__':
     figurinhas_do_joao = input().split(' ')
 
 
-    maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao)
+    print(maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao))
