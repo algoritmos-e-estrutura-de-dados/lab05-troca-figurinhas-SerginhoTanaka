@@ -17,13 +17,13 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
                     if int(menor_copy[k]) == int(maior[j]):
                         menor_copy.pop(k)
                         if len(maior_copy) == 0:
-                            print(0)
+                            return 0
                         else:
-                            print(len(menor_copy))
-                        break
+                            return len(menor_copy)
+                        
             elif maior[j] is not menor[i]:
-                print(len(menor_copy))
-                break
+                return len(menor_copy)
+                
 
 
 if __name__ == '__main__':
